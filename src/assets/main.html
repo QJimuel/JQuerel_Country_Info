@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQUEREL Country Information</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bona+Nova:wght@700&family=Lilita+One&family=Mochiy+Pop+One&family=Poppins:wght@500;600&family=Press+Start+2P&family=Roboto:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Black+And+White+Picture&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+  
+
+</head>
+<body>
+    <header>
+        <a href="main.html"> <h1 class="brand">JQUEREL <h1 class="brandpig">Country Information</h1></h1></a>
+    </header>
+
+
+
+     <br>
+     <br>
+     <br>
+
+     <div class="all">
+        <div class="label1">
+            <label class="countryLabel">Country</label>
+        </div>
+        
+     <div class="searchBox">
+        
+        <table class="searchElement">
+            <tr>
+                <td>
+                    
+                    <input type="text" placeholder="Search Country" class="search" id="search">
+                   
+                </td>
+                <td>
+                    <a href="#" onclick="searchCountry()"><i class="fa fa-search" id="se"></i></a>
+                </td>
+                
+            </tr>
+            
+        </table>
+
+     </div>
+
+     <div class="label2">
+        <label class="regionLabel">Region</label>
+     </div>
+
+     
+     <div class="filter">
+        <select name="pokemon-type" id="pokemon-type" onchange="searchRegion(this.value);">
+            <option value="All">All Region</option>
+            <option value="Asia">Asia</option>
+            <option value="Americas">Americas</option>
+            <option value="Europe">Europe</option>
+            <option value="Africa">Africa</option>
+            <option value="Antarctic">Antarctica</option>
+            <option value="Oceania">Australia(Oceania)</option>
+            
+           
+   
+        </select>
+    </div>
+    </div>
+     
+    
+     
+
+
+     <div id="countriesBox" class="countries-box"></div>
+    
+     <script src="main.js">
+
+     </script>
+</body>
+</html>
