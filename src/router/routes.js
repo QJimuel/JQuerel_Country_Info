@@ -1,10 +1,10 @@
 
-
+import CountryPage from 'pages/CountryPage.vue'
 
 const routes = [
   {
     path: '/',
-    component:  () => import('pages/CountryPage.vue'),
+    component: CountryPage,
     
   },
 
