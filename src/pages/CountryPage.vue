@@ -7,7 +7,7 @@
   <div class>
     <header>
 
-        <h1 class="brand">JQUEREL <h1 class="brandpig">Country Information</h1></h1>
+        <h1 class="brand">JQUEREL <h1 class="brandpig">Country Info</h1></h1>
 
     </header>
 
@@ -464,8 +464,9 @@ th,td{
     }
 
     .countries-box{
-        padding-top: 10%;
+       
         grid-template-columns: 100%;
+        
 
       }
     .all{
