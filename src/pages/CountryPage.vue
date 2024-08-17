@@ -456,7 +456,7 @@ th,td{
 
     .brandpig{
         font-size: 2rem;
-        line-height: 10px;
+        line-height: 50px;
     }
 
     .countries-box{
@@ -466,7 +466,7 @@ th,td{
 
       }
     .all{
-        left: 19%;
+        left: 15%;
     }
   }
 
