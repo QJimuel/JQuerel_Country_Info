@@ -166,7 +166,6 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-
     padding: 1rem 8%;
     display: block;
     z-index: 100;
@@ -222,11 +221,8 @@ header::before {
 .all{
     display: inline-block;
     position: relative;
-
-
-
-    top: 5%;
-    left: 5%;
+    top: 10%;
+    left: 10%;
 
 
 }
@@ -242,8 +238,6 @@ header::before {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 
 }
 
@@ -457,10 +451,12 @@ th,td{
 
     .brand{
         font-size: 2.5rem;
+       
     }
 
     .brandpig{
         font-size: 2rem;
+        line-height: 10px;
     }
 
     .countries-box{
@@ -470,7 +466,7 @@ th,td{
 
       }
     .all{
-        left: 15%;
+        left: 19%;
     }
   }
 
